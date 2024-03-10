@@ -112,3 +112,17 @@ body {
 .home-text p {
   margin-bottom: 4rem;
 }
+
+.home-btn {
+  padding: 15px 45px;
+  background: var(--red);
+  color: var(--white);
+  border-radius: 10px;
+  font-weight: 700;
+  transition: all .6s;
+}
+
+.home-btn:hover {
+  opacity: .7;
+  /* background: #fc614d; */
+}
