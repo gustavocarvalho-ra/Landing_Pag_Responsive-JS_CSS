@@ -126,3 +126,30 @@ body {
   opacity: .7;
   /* background: #fc614d; */
 }
+
+.home-img img {
+  width: 100%;
+}
+
+@media (max-width:785px) {
+  .navigation {
+    padding: 18px 20px;
+  }
+  .menu {
+    display: block;
+  }
+  .nav-menu {
+    position: fixed;
+    right: -100%;
+    top: 70px;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    background: var(--white);
+    gap: -10px;
+    transition: .3s;
+  }
+  .nav-item {
+    margin: 16px 0;
+  }
+}
